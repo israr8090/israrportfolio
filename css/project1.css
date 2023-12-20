@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* //-------------footer-------------------- */
+.footer-bottom {
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 200;
+    font-size: 0.8rem;
+    margin-top: 0px;
+    text-align: center;
+
+}
+
+
+/* //------------------------------------------------------- */
+.project {
+    /* background-color: rgb(250, 209, 209); */
+    /* background: url(/images/background_skill1.jpg); */
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    left: 0px;
+    top: 69px;
+    /* overflow: hidden; */
+}
+
+.project-change {
+    width: 86.8vw;
+    left: 148px;
+}
+
+.project::before {
+    content: '';
+    background: url(/images/background_project1.jpg) repeat center center/cover;
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+    /* opacity: 0.6 */
+}
+
+.project h1 {
+    background-color: rgb(210, 136, 136);
+    /* border: 1px solid black; */
+    padding: 5px;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+
+#projectNew {
+    /* background: aqua; */
+    border: solid 3px transparent;
+    /* border: 2px solid black; */
+    box-shadow: 5px 5px 7px 0px rgb(46, 69, 125);
+    border-radius: 10px;
+    width: 68vw;
+    height: 73vh;
+    margin: 37.5px auto;
+    position: relative;
+}
+
+#projectNew::before {
+    content: '';
+    background: url(/images/projectQuizApp.png) no-repeat center center/cover;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 67vw;
+    height: 70vh;
+    z-index: -3;
+    /* opacity: 0.5; */
+    border-radius: 11px;
+    filter: invert(0.2);
+}
+#project1 {
+    /* background: aqua; */
+    border: solid 3px transparent;
+    /* border: 2px solid black; */
+    box-shadow: 5px 5px 7px 0px rgb(46, 69, 125);
+    border-radius: 10px;
+    width: 68vw;
+    height: 73vh;
+    margin: 37.5px auto;
+    position: relative;
+}
+
+#project1::before {
+    content: '';
+    background: url(/images/project1.png) no-repeat center center/cover;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 67vw;
+    height: 70vh;
+    z-index: -3;
+    /* opacity: 0.5; */
+    border-radius: 11px;
+    filter: invert(0.2);
+}
+
+#project2 {
+    /* background: aqua; */
+    border: solid 3px transparent;
+    box-shadow: 5px 5px 7px 0px rgb(125, 46, 112);
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 68vw;
+    height: 73vh;
+    margin: 37.5px auto;
+    position: relative;
+}
+
+#project2::before {
+    content: '';
+    background: url(/images/project2.png) no-repeat center center/cover;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 67vw;
+    height: 70vh;
+    z-index: -3;
+    /* opacity: 0.5; */
+    border-radius: 11px;
+    filter: invert(0.2);
+
+}
+
+#project3 {
+    /* background: aqua; */
+    border: solid 3px transparent;
+    box-shadow: 5px 5px 7px 0px rgb(46, 125, 83);
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 68vw;
+    height: 73vh;
+    margin: 37.5px auto;
+    position: relative;
+}
+
+#project3::before {
+    content: '';
+    background: url(/images/project3.png) no-repeat center center/cover;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 67vw;
+    height: 70vh;
+    z-index: -3;
+    /* opacity: 0.5; */
+    border-radius: 11px;
+    filter: invert(0.2);
+}
+
+#project4 {
+    /* background: aqua; */
+    border: solid 3px transparent;
+    box-shadow: 5px 5px 7px 0px rgb(125, 82, 46);
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 68vw;
+    height: 73vh;
+    margin: 37.5px auto;
+    position: relative;
+}
+
+#project4::before {
+    content: '';
+    background: url(/images/project4.png) no-repeat center center/cover;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 67vw;
+    height: 70vh;
+    z-index: -3;
+    /* opacity: 0.5; */
+    border-radius: 11px;
+    filter: invert(0.2);
+}
+
+#project5 {
+    /* background: aqua; */
+    border: solid 3px transparent;
+    box-shadow: 5px 5px 7px 0px rgb(125, 46, 72);
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    width: 68vw;
+    height: 73vh;
+    margin: 37.5px auto;
+    position: relative;
+}
+
+#project5::before {
+    content: '';
+    background: url(/images/project5.png) no-repeat center center/cover;
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 67vw;
+    height: 70vh;
+    z-index: -3;
+    /* opacity: 0.5; */
+    border-radius: 11px;
+    filter: invert(0.2);
+}
+
+.project-content {
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    width: 56%;
+    margin-top: 150px;
+    margin-left: 60px;
+    opacity: 0.9;
+}
+
+.project-content:hover {
+    /* filter: blur(1px); */
+    background: rgb(64, 138, 72);
+    box-shadow: 0 0 20px rgb(13, 255, 0);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+.flex {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.images {
+    /* border: 1px solid black; */
+    /* background: rgb(124, 100, 181); */
+    display: flex;
+    margin-left: -239px;
+}
+
+.images img {
+    /* background: rgb(216, 174, 168); */
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    padding: 4px;
+    margin: 8px;
+    width: 40px;
+}
+
+/* //-------------------------- */
+.project-number {
+    position: absolute;
+    font-size: 120px;
+    font-weight: 600;
+    color: rgb(37, 35, 55);
+    z-index: 1;
+    /* display:none; */
+    opacity: 0;
+}
+
+.project-section:hover .project-number {
+    /* display:block; */
+    opacity: 1;
+}
+
+.project-number-left {
+    left: -40px;
+    top: -45px;
+}
+
+/* //----------------------------- */
+#project_titleName {
+    /* background: aqua; */
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-left: -100px;
+    color: rgb(250, 250, 248);
+}
+
+.project-content p {
+    font-size: 1.4rem;
+    padding: 5px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.btn-links {
+    /* background: rgb(216, .168, 209); */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -297px;
+    padding: 5px;
+}
+
+.btn-links a {
+    /* border: 1px solid black;
+    background: rgb(78, 184, 66); */
+    text-decoration: none;
+    margin: 5px 5px;
+}
+
+.visit_btn {
+    border: 1px solid rgb(10, 10, 10);
+    background: rgb(222, 246, 222);
+    border-radius: 6px;
+    margin: 4px 4px;
+    padding: 5px 19px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+}
+
+.font_size {
+    font-size: 1.5rem;
+    color: rgb(2, 2, 2);
+}
+
+/* ///---====mediaQuary===------//// */
+
+@media only screen and (max-width: 810px) {
+    .project-change {
+        width: 100vw;
+        left: 0px;
+    }
+
+    .project h1 {
+        font-size: 2rem;
+    }
+
+    #project1 {
+        /* border: 5px solid black; */
+        width: 85%;
+        height: 275px;
+    }
+
+    #project1::before {
+        width: 97%;
+        height: 95%;
+        /* border: 3px solid black; */
+    }
+
+    #project2 {
+        /* border: 5px solid black; */
+        width: 85%;
+        height: 275px;
+    }
+
+    #project2::before {
+        width: 97%;
+        height: 95%;
+        /* border: 3px solid black; */
+    }
+
+    #project3 {
+        /* border: 5px solid black; */
+        width: 85%;
+        height: 275px;
+
+    }
+
+    #project3::before {
+        width: 97%;
+        height: 95%;
+        /* border: 3px solid black; */
+    }
+
+    #project4 {
+        /* border: 5px solid black; */
+        width: 85%;
+        height: 275px;
+
+    }
+
+    #project4::before {
+        width: 97%;
+        height: 95%;
+        /* border: 3px solid black; */
+    }
+
+    #project5 {
+        /* border: 5px solid black; */
+        width: 85%;
+        height: 275px;
+
+    }
+
+    #project5::before {
+        width: 97%;
+        height: 95%;
+        /* border: 3px solid black; */
+    }
+
+    .project-content {
+        /* border: 1px solid black; */
+        /* background-color: red; */
+        width: 55%;
+        height: 65%;
+        margin-top: 60px;
+        margin-left: 40px;
+    }
+
+    .images {
+        /* border: 1px solid black; */
+        /* background: rgb(124, 100, 181); */
+        margin-left: 0px;
+        margin: 4px;
+      
+    }
+
+    .images img {
+        /* background: rgb(216, 174, 168); */
+        /* border: 1px solid black; */
+        padding: 2px;
+        margin: 3px;
+        width: 15%;
+    }
+    #project_titleName {
+        /* background: aqua; */
+        width: 98%;
+        font-size: 1.2rem;
+        font-weight:bold;
+        margin-left: 0%;
+    }
+    .project-content p {
+        /* border: 1px solid black; */
+        /* background-color: red; */
+        width: 98%;
+        font-size: 0.8rem;
+        padding: 2px;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+    }
+
+    .btn-links {
+        /* background: rgb(216, .168, 209); */
+        /* border: 1px solid black; */
+        width: 98%;
+        margin-left: -20%;
+        padding: 2px;
+    }
+    
+    .btn-links a {
+        /* /* border: 1px solid black; */
+        /* background: rgb(78, 184, 66); */
+        text-decoration: none;
+        margin: 2px 2px;
+        font-size: 0.8rem;
+    }
+
+    .visit_btn {
+        border: 1px solid rgb(10, 10, 10);
+        background: rgb(222, 246, 222);
+        margin: 2px 2px;
+        padding: 3px 7px;
+        font-weight: 600;
+        color: rgb(0, 0, 0);
+        /* letter-spacing: 1px; */
+    }
+    .font_size {
+        font-size: 1rem;
+        color: rgb(2, 2, 2);
+    }
+
+    .project-number {
+        position: absolute;
+        font-size: 80px;
+        font-weight: 600;
+        color: rgb(37, 35, 55);
+        z-index: 1;
+        /* display:none; */
+        opacity: 0;
+    }
+    
+    .project-number-left {
+        left: -25px;
+        top: -30px;
+    }
+    
+
+}
